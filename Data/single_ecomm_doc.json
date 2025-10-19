@@ -1,0 +1,323 @@
+{
+  "customerID": "CUST0026",
+  "personalInfo": {
+    "name": {
+      "firstName": "Prady_26",
+      "lastName": "Mohta_26"
+    },
+    "contact": {
+      "email": "prady26@example.com",
+      "phone": "261-555-3329",
+      "address": {
+        "street": "220 Guliford Road",
+        "city": "Bethesda",
+        "state": "NY",
+        "zipCode": "38855",
+        "country": "USA",
+        "deliveryDetails": {
+          "instructions": "Leave at front door",
+          "timePreferences": {
+            "weekdays": "Afternoon",
+            "weekends": "Morning",
+            "specialInstructions": {
+              "ifNotHome": "Leave with neighbor",
+              "neighborDetails": {
+                "name": "Manav Gupta",
+                "contactNumber": "333-444-5555",
+                "address": "4321 Hartwick Road"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "viewedProducts": [
+    {
+      "category": "Books",
+      "subCategory": "Subcategory 1",
+      "items": [
+        {
+          "name": "Product 1",
+          "brand": "Brand 1",
+          "details": {
+            "model": "Model 1",
+            "specs": {
+              "price": 364,
+              "features": {
+                "dimension": "13 inches",
+                "weight": "4 kg",
+                "extras": {
+                  "warranty": "1 year",
+                  "color": "Silver"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "wishlist": [
+    {
+      "category": "Clothing",
+      "subCategory": "Subcategory 1",
+      "items": [
+        {
+          "name": "Product 1",
+          "brand": "Brand 1",
+          "details": {
+            "model": "Model 1",
+            "specs": {
+              "price": 211,
+              "features": {
+                "dimension": "12 inches",
+                "weight": "3 kg",
+                "extras": {
+                  "warranty": "1 year",
+                  "color": "Silver"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "category": "Electronics",
+      "subCategory": "Subcategory 2",
+      "items": [
+        {
+          "name": "Product 2",
+          "brand": "Brand 2",
+          "details": {
+            "model": "Model 2",
+            "specs": {
+              "price": 374,
+              "features": {
+                "dimension": "7 inches",
+                "weight": "4 kg",
+                "extras": {
+                  "warranty": "1 year",
+                  "color": "Silver"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "category": "Books",
+      "subCategory": "Subcategory 3",
+      "items": [
+        {
+          "name": "Product 3",
+          "brand": "Brand 3",
+          "details": {
+            "model": "Model 3",
+            "specs": {
+              "price": 271,
+              "features": {
+                "dimension": "14 inches",
+                "weight": "5 kg",
+                "extras": {
+                  "warranty": "1 year",
+                  "color": "Silver"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "category": "Footwear",
+      "subCategory": "Subcategory 4",
+      "items": [
+        {
+          "name": "Product 4",
+          "brand": "Brand 4",
+          "details": {
+            "model": "Model 4",
+            "specs": {
+              "price": 771,
+              "features": {
+                "dimension": "15 inches",
+                "weight": "3 kg",
+                "extras": {
+                  "warranty": "1 year",
+                  "color": "White"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "cart": {
+    "items": [
+      {
+        "category": "Footwear",
+        "subCategory": "Subcategory 1",
+        "items": [
+          {
+            "name": "Product 1",
+            "brand": "Brand 1",
+            "details": {
+              "model": "Model 1",
+              "specs": {
+                "price": 578,
+                "features": {
+                  "dimension": "5 inches",
+                  "weight": "4 kg",
+                  "extras": {
+                    "warranty": "1 year",
+                    "color": "Silver"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "category": "Books",
+        "subCategory": "Subcategory 2",
+        "items": [
+          {
+            "name": "Product 2",
+            "brand": "Brand 2",
+            "details": {
+              "model": "Model 2",
+              "specs": {
+                "price": 258,
+                "features": {
+                  "dimension": "8 inches",
+                  "weight": "4 kg",
+                  "extras": {
+                    "warranty": "1 year",
+                    "color": "White"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "orderHistory": [
+    {
+      "orderId": "ORD6488",
+      "orderDate": "2023-01-17",
+      "products": [
+        {
+          "category": "Clothing",
+          "subCategory": "Subcategory 1",
+          "items": [
+            {
+              "name": "Product 1",
+              "brand": "Brand 1",
+              "details": {
+                "model": "Model 1",
+                "specs": {
+                  "price": 68,
+                  "features": {
+                    "dimension": "12 inches",
+                    "weight": "1 kg",
+                    "extras": {
+                      "warranty": "1 year",
+                      "color": "Black"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "category": "Clothing",
+          "subCategory": "Subcategory 2",
+          "items": [
+            {
+              "name": "Product 2",
+              "brand": "Brand 2",
+              "details": {
+                "model": "Model 2",
+                "specs": {
+                  "price": 128,
+                  "features": {
+                    "dimension": "10 inches",
+                    "weight": "2 kg",
+                    "extras": {
+                      "warranty": "1 year",
+                      "color": "Black"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "totalPrice": 650
+    },
+    {
+      "orderId": "ORD2278",
+      "orderDate": "2023-01-25",
+      "products": [
+        {
+          "category": "Electronics",
+          "subCategory": "Subcategory 1",
+          "items": [
+            {
+              "name": "Product 1",
+              "brand": "Brand 1",
+              "details": {
+                "model": "Model 1",
+                "specs": {
+                  "price": 455,
+                  "features": {
+                    "dimension": "7 inches",
+                    "weight": "4 kg",
+                    "extras": {
+                      "warranty": "1 year",
+                      "color": "White"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "category": "Books",
+          "subCategory": "Subcategory 2",
+          "items": [
+            {
+              "name": "Product 2",
+              "brand": "Brand 2",
+              "details": {
+                "model": "Model 2",
+                "specs": {
+                  "price": 817,
+                  "features": {
+                    "dimension": "5 inches",
+                    "weight": "4 kg",
+                    "extras": {
+                      "warranty": "1 year",
+                      "color": "White"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "totalPrice": 274
+    }
+  ]
+}

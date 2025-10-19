@@ -1,0 +1,833 @@
+[
+  {
+    "customerID": "CUST0027",
+    "personalInfo": {
+      "name": {
+        "firstName": "Prady_27",
+        "lastName": "Mohta_27"
+      },
+      "contact": {
+        "email": "prady27@example.com",
+        "phone": "680-555-4671",
+        "address": {
+          "street": "916 Guliford Road",
+          "city": "Rock Ville",
+          "state": "VA",
+          "zipCode": "34790",
+          "country": "USA",
+          "deliveryDetails": {
+            "instructions": "Leave at front door",
+            "timePreferences": {
+              "weekdays": "Afternoon",
+              "weekends": "Morning",
+              "specialInstructions": {
+                "ifNotHome": "Leave with neighbor",
+                "neighborDetails": {
+                  "name": "Manav Gupta",
+                  "contactNumber": "333-444-5555",
+                  "address": "4321 Hartwick Road"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "viewedProducts": [
+      {
+        "category": "Books",
+        "subCategory": "Subcategory 1",
+        "items": [
+          {
+            "name": "Product 1",
+            "brand": "Brand 1",
+            "details": {
+              "model": "Model 1",
+              "specs": {
+                "price": 575,
+                "features": {
+                  "dimension": "5 inches",
+                  "weight": "4 kg",
+                  "extras": {
+                    "warranty": "1 year",
+                    "color": "Black"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "category": "Clothing",
+        "subCategory": "Subcategory 2",
+        "items": [
+          {
+            "name": "Product 2",
+            "brand": "Brand 2",
+            "details": {
+              "model": "Model 2",
+              "specs": {
+                "price": 668,
+                "features": {
+                  "dimension": "6 inches",
+                  "weight": "4 kg",
+                  "extras": {
+                    "warranty": "1 year",
+                    "color": "Black"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "category": "Clothing",
+        "subCategory": "Subcategory 3",
+        "items": [
+          {
+            "name": "Product 3",
+            "brand": "Brand 3",
+            "details": {
+              "model": "Model 3",
+              "specs": {
+                "price": 758,
+                "features": {
+                  "dimension": "15 inches",
+                  "weight": "2 kg",
+                  "extras": {
+                    "warranty": "1 year",
+                    "color": "Silver"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "wishlist": [
+      {
+        "category": "Books",
+        "subCategory": "Subcategory 1",
+        "items": [
+          {
+            "name": "Product 1",
+            "brand": "Brand 1",
+            "details": {
+              "model": "Model 1",
+              "specs": {
+                "price": 947,
+                "features": {
+                  "dimension": "9 inches",
+                  "weight": "3 kg",
+                  "extras": {
+                    "warranty": "1 year",
+                    "color": "White"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "category": "Clothing",
+        "subCategory": "Subcategory 2",
+        "items": [
+          {
+            "name": "Product 2",
+            "brand": "Brand 2",
+            "details": {
+              "model": "Model 2",
+              "specs": {
+                "price": 822,
+                "features": {
+                  "dimension": "7 inches",
+                  "weight": "1 kg",
+                  "extras": {
+                    "warranty": "1 year",
+                    "color": "White"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "category": "Books",
+        "subCategory": "Subcategory 3",
+        "items": [
+          {
+            "name": "Product 3",
+            "brand": "Brand 3",
+            "details": {
+              "model": "Model 3",
+              "specs": {
+                "price": 492,
+                "features": {
+                  "dimension": "6 inches",
+                  "weight": "1 kg",
+                  "extras": {
+                    "warranty": "1 year",
+                    "color": "Silver"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "cart": {
+      "items": [
+        {
+          "category": "Home Appliances",
+          "subCategory": "Subcategory 1",
+          "items": [
+            {
+              "name": "Product 1",
+              "brand": "Brand 1",
+              "details": {
+                "model": "Model 1",
+                "specs": {
+                  "price": 763,
+                  "features": {
+                    "dimension": "5 inches",
+                    "weight": "2 kg",
+                    "extras": {
+                      "warranty": "1 year",
+                      "color": "Silver"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "category": "Books",
+          "subCategory": "Subcategory 2",
+          "items": [
+            {
+              "name": "Product 2",
+              "brand": "Brand 2",
+              "details": {
+                "model": "Model 2",
+                "specs": {
+                  "price": 894,
+                  "features": {
+                    "dimension": "9 inches",
+                    "weight": "4 kg",
+                    "extras": {
+                      "warranty": "1 year",
+                      "color": "White"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "category": "Home Appliances",
+          "subCategory": "Subcategory 3",
+          "items": [
+            {
+              "name": "Product 3",
+              "brand": "Brand 3",
+              "details": {
+                "model": "Model 3",
+                "specs": {
+                  "price": 77,
+                  "features": {
+                    "dimension": "12 inches",
+                    "weight": "2 kg",
+                    "extras": {
+                      "warranty": "1 year",
+                      "color": "White"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "orderHistory": [
+      {
+        "orderId": "ORD7787",
+        "orderDate": "2023-03-23",
+        "products": [
+          {
+            "category": "Home Appliances",
+            "subCategory": "Subcategory 1",
+            "items": [
+              {
+                "name": "Product 1",
+                "brand": "Brand 1",
+                "details": {
+                  "model": "Model 1",
+                  "specs": {
+                    "price": 875,
+                    "features": {
+                      "dimension": "7 inches",
+                      "weight": "3 kg",
+                      "extras": {
+                        "warranty": "1 year",
+                        "color": "White"
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "category": "Clothing",
+            "subCategory": "Subcategory 2",
+            "items": [
+              {
+                "name": "Product 2",
+                "brand": "Brand 2",
+                "details": {
+                  "model": "Model 2",
+                  "specs": {
+                    "price": 958,
+                    "features": {
+                      "dimension": "9 inches",
+                      "weight": "5 kg",
+                      "extras": {
+                        "warranty": "1 year",
+                        "color": "Silver"
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "category": "Electronics",
+            "subCategory": "Subcategory 3",
+            "items": [
+              {
+                "name": "Product 3",
+                "brand": "Brand 3",
+                "details": {
+                  "model": "Model 3",
+                  "specs": {
+                    "price": 299,
+                    "features": {
+                      "dimension": "13 inches",
+                      "weight": "4 kg",
+                      "extras": {
+                        "warranty": "1 year",
+                        "color": "Silver"
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "category": "Books",
+            "subCategory": "Subcategory 4",
+            "items": [
+              {
+                "name": "Product 4",
+                "brand": "Brand 4",
+                "details": {
+                  "model": "Model 4",
+                  "specs": {
+                    "price": 320,
+                    "features": {
+                      "dimension": "10 inches",
+                      "weight": "1 kg",
+                      "extras": {
+                        "warranty": "1 year",
+                        "color": "Silver"
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "totalPrice": 850
+      },
+      {
+        "orderId": "ORD9210",
+        "orderDate": "2023-09-16",
+        "products": [
+          {
+            "category": "Clothing",
+            "subCategory": "Subcategory 1",
+            "items": [
+              {
+                "name": "Product 1",
+                "brand": "Brand 1",
+                "details": {
+                  "model": "Model 1",
+                  "specs": {
+                    "price": 634,
+                    "features": {
+                      "dimension": "15 inches",
+                      "weight": "5 kg",
+                      "extras": {
+                        "warranty": "1 year",
+                        "color": "Black"
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "category": "Footwear",
+            "subCategory": "Subcategory 2",
+            "items": [
+              {
+                "name": "Product 2",
+                "brand": "Brand 2",
+                "details": {
+                  "model": "Model 2",
+                  "specs": {
+                    "price": 460,
+                    "features": {
+                      "dimension": "12 inches",
+                      "weight": "1 kg",
+                      "extras": {
+                        "warranty": "1 year",
+                        "color": "Silver"
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "category": "Books",
+            "subCategory": "Subcategory 3",
+            "items": [
+              {
+                "name": "Product 3",
+                "brand": "Brand 3",
+                "details": {
+                  "model": "Model 3",
+                  "specs": {
+                    "price": 624,
+                    "features": {
+                      "dimension": "5 inches",
+                      "weight": "5 kg",
+                      "extras": {
+                        "warranty": "1 year",
+                        "color": "Silver"
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "category": "Clothing",
+            "subCategory": "Subcategory 4",
+            "items": [
+              {
+                "name": "Product 4",
+                "brand": "Brand 4",
+                "details": {
+                  "model": "Model 4",
+                  "specs": {
+                    "price": 742,
+                    "features": {
+                      "dimension": "13 inches",
+                      "weight": "3 kg",
+                      "extras": {
+                        "warranty": "1 year",
+                        "color": "Black"
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "totalPrice": 1521
+      }
+    ]
+  },
+  {
+    "customerID": "CUST0028",
+    "personalInfo": {
+      "name": {
+        "firstName": "Prady_28",
+        "lastName": "Mohta_28"
+      },
+      "contact": {
+        "email": "prady28@example.com",
+        "phone": "700-555-5418",
+        "address": {
+          "street": "140 Guliford Road",
+          "city": "Rock Ville",
+          "state": "MD",
+          "zipCode": "22360",
+          "country": "USA",
+          "deliveryDetails": {
+            "instructions": "Leave at front door",
+            "timePreferences": {
+              "weekdays": "Afternoon",
+              "weekends": "Morning",
+              "specialInstructions": {
+                "ifNotHome": "Leave with neighbor",
+                "neighborDetails": {
+                  "name": "Manav Gupta",
+                  "contactNumber": "333-444-5555",
+                  "address": "4321 Hartwick Road"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "viewedProducts": [
+      {
+        "category": "Home Appliances",
+        "subCategory": "Subcategory 1",
+        "items": [
+          {
+            "name": "Product 1",
+            "brand": "Brand 1",
+            "details": {
+              "model": "Model 1",
+              "specs": {
+                "price": 782,
+                "features": {
+                  "dimension": "12 inches",
+                  "weight": "4 kg",
+                  "extras": {
+                    "warranty": "1 year",
+                    "color": "White"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "category": "Clothing",
+        "subCategory": "Subcategory 2",
+        "items": [
+          {
+            "name": "Product 2",
+            "brand": "Brand 2",
+            "details": {
+              "model": "Model 2",
+              "specs": {
+                "price": 342,
+                "features": {
+                  "dimension": "14 inches",
+                  "weight": "4 kg",
+                  "extras": {
+                    "warranty": "1 year",
+                    "color": "White"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "category": "Clothing",
+        "subCategory": "Subcategory 3",
+        "items": [
+          {
+            "name": "Product 3",
+            "brand": "Brand 3",
+            "details": {
+              "model": "Model 3",
+              "specs": {
+                "price": 144,
+                "features": {
+                  "dimension": "6 inches",
+                  "weight": "3 kg",
+                  "extras": {
+                    "warranty": "1 year",
+                    "color": "White"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "category": "Books",
+        "subCategory": "Subcategory 4",
+        "items": [
+          {
+            "name": "Product 4",
+            "brand": "Brand 4",
+            "details": {
+              "model": "Model 4",
+              "specs": {
+                "price": 388,
+                "features": {
+                  "dimension": "7 inches",
+                  "weight": "1 kg",
+                  "extras": {
+                    "warranty": "1 year",
+                    "color": "Silver"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "wishlist": [
+      {
+        "category": "Home Appliances",
+        "subCategory": "Subcategory 1",
+        "items": [
+          {
+            "name": "Product 1",
+            "brand": "Brand 1",
+            "details": {
+              "model": "Model 1",
+              "specs": {
+                "price": 143,
+                "features": {
+                  "dimension": "14 inches",
+                  "weight": "3 kg",
+                  "extras": {
+                    "warranty": "1 year",
+                    "color": "White"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "category": "Electronics",
+        "subCategory": "Subcategory 2",
+        "items": [
+          {
+            "name": "Product 2",
+            "brand": "Brand 2",
+            "details": {
+              "model": "Model 2",
+              "specs": {
+                "price": 940,
+                "features": {
+                  "dimension": "13 inches",
+                  "weight": "2 kg",
+                  "extras": {
+                    "warranty": "1 year",
+                    "color": "White"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "cart": {
+      "items": [
+        {
+          "category": "Clothing",
+          "subCategory": "Subcategory 1",
+          "items": [
+            {
+              "name": "Product 1",
+              "brand": "Brand 1",
+              "details": {
+                "model": "Model 1",
+                "specs": {
+                  "price": 534,
+                  "features": {
+                    "dimension": "12 inches",
+                    "weight": "5 kg",
+                    "extras": {
+                      "warranty": "1 year",
+                      "color": "White"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "category": "Electronics",
+          "subCategory": "Subcategory 2",
+          "items": [
+            {
+              "name": "Product 2",
+              "brand": "Brand 2",
+              "details": {
+                "model": "Model 2",
+                "specs": {
+                  "price": 103,
+                  "features": {
+                    "dimension": "14 inches",
+                    "weight": "3 kg",
+                    "extras": {
+                      "warranty": "1 year",
+                      "color": "Silver"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "category": "Electronics",
+          "subCategory": "Subcategory 3",
+          "items": [
+            {
+              "name": "Product 3",
+              "brand": "Brand 3",
+              "details": {
+                "model": "Model 3",
+                "specs": {
+                  "price": 466,
+                  "features": {
+                    "dimension": "6 inches",
+                    "weight": "5 kg",
+                    "extras": {
+                      "warranty": "1 year",
+                      "color": "Silver"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "orderHistory": [
+      {
+        "orderId": "ORD9232",
+        "orderDate": "2023-03-09",
+        "products": [
+          {
+            "category": "Home Appliances",
+            "subCategory": "Subcategory 1",
+            "items": [
+              {
+                "name": "Product 1",
+                "brand": "Brand 1",
+                "details": {
+                  "model": "Model 1",
+                  "specs": {
+                    "price": 43,
+                    "features": {
+                      "dimension": "14 inches",
+                      "weight": "1 kg",
+                      "extras": {
+                        "warranty": "1 year",
+                        "color": "White"
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "category": "Clothing",
+            "subCategory": "Subcategory 2",
+            "items": [
+              {
+                "name": "Product 2",
+                "brand": "Brand 2",
+                "details": {
+                  "model": "Model 2",
+                  "specs": {
+                    "price": 850,
+                    "features": {
+                      "dimension": "6 inches",
+                      "weight": "5 kg",
+                      "extras": {
+                        "warranty": "1 year",
+                        "color": "Black"
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "category": "Home Appliances",
+            "subCategory": "Subcategory 3",
+            "items": [
+              {
+                "name": "Product 3",
+                "brand": "Brand 3",
+                "details": {
+                  "model": "Model 3",
+                  "specs": {
+                    "price": 430,
+                    "features": {
+                      "dimension": "5 inches",
+                      "weight": "4 kg",
+                      "extras": {
+                        "warranty": "1 year",
+                        "color": "Silver"
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "category": "Electronics",
+            "subCategory": "Subcategory 4",
+            "items": [
+              {
+                "name": "Product 4",
+                "brand": "Brand 4",
+                "details": {
+                  "model": "Model 4",
+                  "specs": {
+                    "price": 612,
+                    "features": {
+                      "dimension": "12 inches",
+                      "weight": "4 kg",
+                      "extras": {
+                        "warranty": "1 year",
+                        "color": "Silver"
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "totalPrice": 706
+      }
+    ]
+  }
+]
