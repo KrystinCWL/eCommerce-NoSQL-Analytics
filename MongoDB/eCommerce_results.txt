@@ -1,0 +1,224 @@
+Current Mongosh Log ID:	68f4fd337be4171359cebea3
+Connecting to:		mongodb://localhost:27017/eCommerceDB?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.5.8
+Using MongoDB:		8.0.6
+Using Mongosh:		2.5.8
+
+For mongosh info see: https://www.mongodb.com/docs/mongodb-shell/
+
+
+To help improve our products, anonymous usage data is collected and sent to MongoDB periodically (https://www.mongodb.com/legal/privacy-policy).
+You can opt-out by running the disableTelemetry() command.
+
+------
+   The server generated these startup warnings when booting
+   2025-10-16T04:02:32.054-04:00: Access control is not enabled for the database. Read and write access to data and configuration is unrestricted
+------
+
+eCommerceDB> 
+eCommerceDB> 
+eCommerceDB> 
+eCommerceDB> 
+eCommerceDB> already on db eCommerceDB
+eCommerceDB> 
+eCommerceDB> 
+===============================
+
+eCommerceDB>  eCommerce MongoDB Queries Log 
+
+eCommerceDB> ===============================
+
+
+eCommerceDB> 
+eCommerceDB> 
+eCommerceDB> 
+[Query i] Insert one document of nested levels
+
+eCommerceDB> ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... {
+  acknowledged: true,
+  insertedId: ObjectId('68f4fd347be4171359cebea4')
+}
+eCommerceDB> ✅ InsertOne completed.
+
+eCommerceDB> 
+eCommerceDB> 
+eCommerceDB> 
+[Query ii] Insert multiple documents of nested levels
+
+eCommerceDB> ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... {
+  acknowledged: true,
+  insertedIds: {
+    '0': ObjectId('68f4fd387be4171359cebea5'),
+    '1': ObjectId('68f4fd387be4171359cebea6')
+  }
+}
+eCommerceDB> ✅ InsertMany completed.
+
+eCommerceDB> 
+eCommerceDB> 
+eCommerceDB> 
+[Query iii] Delete a customer who viewed Electronics, wishlist Books, and order > 1000
+
+eCommerceDB> ... ... ... ... { acknowledged: true, deletedCount: 1 }
+eCommerceDB> ✅ DeleteOne executed.
+
+eCommerceDB> 
+eCommerceDB> 
+eCommerceDB> 
+[Query iv] Delete customers in MD with orders < 1000
+
+eCommerceDB> ... ... ... { acknowledged: true, deletedCount: 7 }
+eCommerceDB> ✅ DeleteMany executed.
+
+eCommerceDB> 
+eCommerceDB> 
+eCommerceDB> 
+[Query v] Update email & wishlist priority for viewed Books + cart > $100
+
+eCommerceDB> ... ... ... ... ... ... ... ... {
+  acknowledged: true,
+  insertedId: null,
+  matchedCount: 9,
+  modifiedCount: 9,
+  upsertedCount: 0
+}
+eCommerceDB> ✅ UpdateMany executed.
+
+eCommerceDB> 
+eCommerceDB> 
+eCommerceDB> 
+[Query vi] Customers with cart items > $100 and viewed Electronics:
+
+eCommerceDB> ... ... ... {
+  customerID: 'CUST0007'
+}
+{
+  customerID: 'CUST0013'
+}
+{
+  customerID: 'CUST0015'
+}
+{
+  customerID: 'CUST0021'
+}
+{
+  customerID: 'CUST0024'
+}
+{
+  customerID: 'CUST0025'
+}
+
+eCommerceDB> 
+eCommerceDB> 
+eCommerceDB> 
+[Query vii] Customers from MD who viewed both Electronics and Books:
+
+eCommerceDB> ... ... ... {
+  customerID: 'CUST0015'
+}
+
+eCommerceDB> 
+eCommerceDB> 
+eCommerceDB> 
+[Query viii] Customers with Footwear in wishlist and viewed Home Appliances:
+
+eCommerceDB> ... ... ... {
+  customerID: 'CUST0001'
+}
+{
+  customerID: 'CUST0005'
+}
+{
+  customerID: 'CUST0008'
+}
+{
+  customerID: 'CUST0017'
+}
+{
+  customerID: 'CUST0022'
+}
+
+eCommerceDB> 
+eCommerceDB> 
+eCommerceDB> 
+[Query ix] Customers with orders > $1500 and live in College Park:
+
+eCommerceDB> ... ... ... {
+  customerID: 'CUST0016'
+}
+{
+  customerID: 'CUST0020'
+}
+
+eCommerceDB> 
+eCommerceDB> 
+eCommerceDB> 
+[Query x] Customers who viewed & cart both contain Electronics:
+
+eCommerceDB> ... ... ... {
+  customerID: 'CUST0024'
+}
+
+eCommerceDB> 
+eCommerceDB> 
+eCommerceDB> 
+[Query xi] Customers who viewed Clothing, wishlist Books, live in Hyattsville:
+
+eCommerceDB> ... ... ... ... {
+  customerID: 'CUST0013'
+}
+{
+  customerID: 'CUST0021'
+}
+
+eCommerceDB> 
+eCommerceDB> 
+eCommerceDB> 
+[Query xii] Customers with 2023 orders, warranty items, Home Appliances cart:
+
+eCommerceDB> ... ... ... ... {
+  customerID: 'CUST0001'
+}
+{
+  customerID: 'CUST0005'
+}
+{
+  customerID: 'CUST0007'
+}
+{
+  customerID: 'CUST0009'
+}
+{
+  customerID: 'CUST0012'
+}
+{
+  customerID: 'CUST0019'
+}
+{
+  customerID: 'CUST0021'
+}
+{
+  customerID: 'CUST0025'
+}
+{
+  customerID: 'CUST0027'
+}
+
+eCommerceDB> 
+eCommerceDB> 
+eCommerceDB> 
+[Query xiii] Customers in VA, viewed Electronics, cart < $200:
+
+eCommerceDB> ... ... ... ... {
+  customerID: 'CUST0007'
+}
+
+eCommerceDB> 
+eCommerceDB> 
+===============================
+
+eCommerceDB>  All Queries Executed Successfully 
+
+eCommerceDB> ===============================
+
+
+eCommerceDB> 
