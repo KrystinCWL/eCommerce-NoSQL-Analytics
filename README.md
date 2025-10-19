@@ -52,3 +52,34 @@ db.ecommerce.find({
     "orderHistory.totalPrice": { "$gt": 1500 },
     "address.city": "College Park"
 })
+
+### 🕸️ Neo4J (Cypher)
+```cypher
+# Retrieve all smartphone purchases and related customer/order details
+MATCH (c:Customer)-[:PLACED]->(o:Order)-[:CONTAINS]->(p:Product {category: 'Smartphone'})
+RETURN c.name, o.orderID, p.name, p.price
+
+
+---
+
+## 📈 Key Insights
+
+- Customers purchasing electronics had higher average order values.
+- The most connected product categories in Neo4J indicated strong cross-selling opportunities.
+- Identified referral patterns and purchase clustering using graph relationships.
+
+---
+
+## 📚 Deliverables
+
+1. Jupyter Notebooks for MongoDB and Neo4J
+2. Screenshot evidence of query results
+3. PDF Report summarizing methodology and insights
+
+---
+
+## 🧾 Author
+
+Krystin Lee
+M.S. in Information Systems @ University of Maryland
+Data Analyst
