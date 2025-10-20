@@ -52,13 +52,14 @@ db.ecommerce.find({
     "orderHistory.totalPrice": { "$gt": 1500 },
     "address.city": "College Park"
 })
+```
 
 ### 🕸️ Neo4J (Cypher)
 ```cypher
-# Retrieve all smartphone purchases and related customer/order details
+// Retrieve all smartphone purchases and related customer/order details
 MATCH (c:Customer)-[:PLACED]->(o:Order)-[:CONTAINS]->(p:Product {category: 'Smartphone'})
 RETURN c.name, o.orderID, p.name, p.price
-
+```
 
 ---
 
