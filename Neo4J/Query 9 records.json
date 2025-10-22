@@ -1,0 +1,17 @@
+﻿[
+  {
+    "Customer": "Charlie",
+    "OrderID": "ORD302",
+    "TotalPrice": 5000
+  },
+  {
+    "Customer": "Charlie",
+    "OrderID": "ORD305",
+    "TotalPrice": 4000
+  },
+  {
+    "Customer": "Diana",
+    "OrderID": "ORD401",
+    "TotalPrice": 3000
+  }
+]
