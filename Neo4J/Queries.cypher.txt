@@ -1,3 +1,0 @@
-MATCH (n1:Customer)-[r1:PLACED]->(n2:Order) WHERE (n2.date STARTS WITH "2024-01")
-MATCH (n3:Customer)-[r2:REFERRED_BY]->(n1:Customer)
-RETURN n1,n2,n3
