@@ -1,0 +1,262 @@
+﻿[
+  {
+    "c": {
+      "identity": 8,
+      "labels": [
+        "Customer"
+      ],
+      "properties": {
+        "joinDate": "2023-01-10",
+        "name": "Alice",
+        "customerID": "CUST001",
+        "email": "alice@example.com"
+      },
+      "elementId": "4:5da8c7a4-f852-4681-9ed4-3c136c33907d:8"
+    },
+    "o": {
+      "identity": 13,
+      "labels": [
+        "Order"
+      ],
+      "properties": {
+        "date": "2024-01-01",
+        "total": 2000,
+        "orderID": "ORD101",
+        "status": "Delivered"
+      },
+      "elementId": "4:5da8c7a4-f852-4681-9ed4-3c136c33907d:13"
+    },
+    "p": {
+      "identity": 3,
+      "labels": [
+        "Product"
+      ],
+      "properties": {
+        "productID": "PROD001",
+        "price": 1200,
+        "name": "Laptop",
+        "stockQuantity": 10
+      },
+      "elementId": "4:5da8c7a4-f852-4681-9ed4-3c136c33907d:3"
+    },
+    "cat": {
+      "identity": 0,
+      "labels": [
+        "Category"
+      ],
+      "properties": {
+        "name": "Electronics",
+        "categoryID": "CAT001"
+      },
+      "elementId": "4:5da8c7a4-f852-4681-9ed4-3c136c33907d:0"
+    }
+  },
+  {
+    "c": {
+      "identity": 9,
+      "labels": [
+        "Customer"
+      ],
+      "properties": {
+        "joinDate": "2023-02-15",
+        "name": "Bob",
+        "customerID": "CUST002",
+        "email": "bob@example.com"
+      },
+      "elementId": "4:5da8c7a4-f852-4681-9ed4-3c136c33907d:9"
+    },
+    "o": {
+      "identity": 16,
+      "labels": [
+        "Order"
+      ],
+      "properties": {
+        "date": "2024-01-02",
+        "total": 1200,
+        "orderID": "ORD201",
+        "status": "Delivered"
+      },
+      "elementId": "4:5da8c7a4-f852-4681-9ed4-3c136c33907d:16"
+    },
+    "p": {
+      "identity": 5,
+      "labels": [
+        "Product"
+      ],
+      "properties": {
+        "productID": "PROD003",
+        "price": 200,
+        "name": "E-Book Reader",
+        "stockQuantity": 20
+      },
+      "elementId": "4:5da8c7a4-f852-4681-9ed4-3c136c33907d:5"
+    },
+    "cat": {
+      "identity": 1,
+      "labels": [
+        "Category"
+      ],
+      "properties": {
+        "name": "Books",
+        "categoryID": "CAT002"
+      },
+      "elementId": "4:5da8c7a4-f852-4681-9ed4-3c136c33907d:1"
+    }
+  },
+  {
+    "c": {
+      "identity": 11,
+      "labels": [
+        "Customer"
+      ],
+      "properties": {
+        "joinDate": "2023-04-25",
+        "name": "Diana",
+        "customerID": "CUST004",
+        "email": "diana@example.com"
+      },
+      "elementId": "4:5da8c7a4-f852-4681-9ed4-3c136c33907d:11"
+    },
+    "o": {
+      "identity": 22,
+      "labels": [
+        "Order"
+      ],
+      "properties": {
+        "date": "2024-01-08",
+        "total": 3000,
+        "orderID": "ORD401",
+        "status": "Delivered"
+      },
+      "elementId": "4:5da8c7a4-f852-4681-9ed4-3c136c33907d:22"
+    },
+    "p": {
+      "identity": 5,
+      "labels": [
+        "Product"
+      ],
+      "properties": {
+        "productID": "PROD003",
+        "price": 200,
+        "name": "E-Book Reader",
+        "stockQuantity": 20
+      },
+      "elementId": "4:5da8c7a4-f852-4681-9ed4-3c136c33907d:5"
+    },
+    "cat": {
+      "identity": 1,
+      "labels": [
+        "Category"
+      ],
+      "properties": {
+        "name": "Books",
+        "categoryID": "CAT002"
+      },
+      "elementId": "4:5da8c7a4-f852-4681-9ed4-3c136c33907d:1"
+    }
+  },
+  {
+    "c": {
+      "identity": 12,
+      "labels": [
+        "Customer"
+      ],
+      "properties": {
+        "joinDate": "2023-05-30",
+        "name": "Evan",
+        "customerID": "CUST005",
+        "email": "evan@example.com"
+      },
+      "elementId": "4:5da8c7a4-f852-4681-9ed4-3c136c33907d:12"
+    },
+    "o": {
+      "identity": 25,
+      "labels": [
+        "Order"
+      ],
+      "properties": {
+        "date": "2024-01-11",
+        "total": 100,
+        "orderID": "ORD501",
+        "status": "Delivered"
+      },
+      "elementId": "4:5da8c7a4-f852-4681-9ed4-3c136c33907d:25"
+    },
+    "p": {
+      "identity": 6,
+      "labels": [
+        "Product"
+      ],
+      "properties": {
+        "productID": "PROD004",
+        "price": 300,
+        "name": "Microwave Oven",
+        "stockQuantity": 5
+      },
+      "elementId": "4:5da8c7a4-f852-4681-9ed4-3c136c33907d:6"
+    },
+    "cat": {
+      "identity": 2,
+      "labels": [
+        "Category"
+      ],
+      "properties": {
+        "name": "Home Appliances",
+        "categoryID": "CAT003"
+      },
+      "elementId": "4:5da8c7a4-f852-4681-9ed4-3c136c33907d:2"
+    }
+  },
+  {
+    "c": {
+      "identity": 10,
+      "labels": [
+        "Customer"
+      ],
+      "properties": {
+        "joinDate": "2023-03-20",
+        "name": "Charlie",
+        "customerID": "CUST003",
+        "email": "charlie@example.com"
+      },
+      "elementId": "4:5da8c7a4-f852-4681-9ed4-3c136c33907d:10"
+    },
+    "o": {
+      "identity": 19,
+      "labels": [
+        "Order"
+      ],
+      "properties": {
+        "date": "2024-01-05",
+        "total": 1000,
+        "orderID": "ORD301",
+        "status": "Delivered"
+      },
+      "elementId": "4:5da8c7a4-f852-4681-9ed4-3c136c33907d:19"
+    },
+    "p": {
+      "identity": 7,
+      "labels": [
+        "Product"
+      ],
+      "properties": {
+        "productID": "PROD005",
+        "price": 600,
+        "name": "Dishwasher",
+        "stockQuantity": 8
+      },
+      "elementId": "4:5da8c7a4-f852-4681-9ed4-3c136c33907d:7"
+    },
+    "cat": {
+      "identity": 2,
+      "labels": [
+        "Category"
+      ],
+      "properties": {
+        "name": "Home Appliances",
+        "categoryID": "CAT003"
+      },
+      "elementId": "4:5da8c7a4-f852-4681-9ed4-3c136c33907d:2"
+    }
+  }
+]

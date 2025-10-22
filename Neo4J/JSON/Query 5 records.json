@@ -1,0 +1,617 @@
+﻿[
+  {
+    "c": {
+      "identity": 8,
+      "labels": [
+        "Customer"
+      ],
+      "properties": {
+        "joinDate": "2023-01-10",
+        "name": "Alice",
+        "customerID": "CUST001",
+        "email": "alice@example.com"
+      },
+      "elementId": "4:5da8c7a4-f852-4681-9ed4-3c136c33907d:8"
+    },
+    "o": {
+      "identity": 13,
+      "labels": [
+        "Order"
+      ],
+      "properties": {
+        "date": "2024-01-01",
+        "total": 2000,
+        "orderID": "ORD101",
+        "status": "Delivered"
+      },
+      "elementId": "4:5da8c7a4-f852-4681-9ed4-3c136c33907d:13"
+    },
+    "p": {
+      "identity": 3,
+      "labels": [
+        "Product"
+      ],
+      "properties": {
+        "productID": "PROD001",
+        "price": 1200,
+        "name": "Laptop",
+        "stockQuantity": 10
+      },
+      "elementId": "4:5da8c7a4-f852-4681-9ed4-3c136c33907d:3"
+    }
+  },
+  {
+    "c": {
+      "identity": 8,
+      "labels": [
+        "Customer"
+      ],
+      "properties": {
+        "joinDate": "2023-01-10",
+        "name": "Alice",
+        "customerID": "CUST001",
+        "email": "alice@example.com"
+      },
+      "elementId": "4:5da8c7a4-f852-4681-9ed4-3c136c33907d:8"
+    },
+    "o": {
+      "identity": 14,
+      "labels": [
+        "Order"
+      ],
+      "properties": {
+        "date": "2024-01-15",
+        "total": 800,
+        "orderID": "ORD102",
+        "status": "Shipped"
+      },
+      "elementId": "4:5da8c7a4-f852-4681-9ed4-3c136c33907d:14"
+    },
+    "p": {
+      "identity": 4,
+      "labels": [
+        "Product"
+      ],
+      "properties": {
+        "productID": "PROD002",
+        "price": 800,
+        "name": "Smartphone",
+        "stockQuantity": 15
+      },
+      "elementId": "4:5da8c7a4-f852-4681-9ed4-3c136c33907d:4"
+    }
+  },
+  {
+    "c": {
+      "identity": 8,
+      "labels": [
+        "Customer"
+      ],
+      "properties": {
+        "joinDate": "2023-01-10",
+        "name": "Alice",
+        "customerID": "CUST001",
+        "email": "alice@example.com"
+      },
+      "elementId": "4:5da8c7a4-f852-4681-9ed4-3c136c33907d:8"
+    },
+    "o": {
+      "identity": 15,
+      "labels": [
+        "Order"
+      ],
+      "properties": {
+        "date": "2024-02-01",
+        "total": 300,
+        "orderID": "ORD105",
+        "status": "Processing"
+      },
+      "elementId": "4:5da8c7a4-f852-4681-9ed4-3c136c33907d:15"
+    },
+    "p": {
+      "identity": 4,
+      "labels": [
+        "Product"
+      ],
+      "properties": {
+        "productID": "PROD002",
+        "price": 800,
+        "name": "Smartphone",
+        "stockQuantity": 15
+      },
+      "elementId": "4:5da8c7a4-f852-4681-9ed4-3c136c33907d:4"
+    }
+  },
+  {
+    "c": {
+      "identity": 9,
+      "labels": [
+        "Customer"
+      ],
+      "properties": {
+        "joinDate": "2023-02-15",
+        "name": "Bob",
+        "customerID": "CUST002",
+        "email": "bob@example.com"
+      },
+      "elementId": "4:5da8c7a4-f852-4681-9ed4-3c136c33907d:9"
+    },
+    "o": {
+      "identity": 16,
+      "labels": [
+        "Order"
+      ],
+      "properties": {
+        "date": "2024-01-02",
+        "total": 1200,
+        "orderID": "ORD201",
+        "status": "Delivered"
+      },
+      "elementId": "4:5da8c7a4-f852-4681-9ed4-3c136c33907d:16"
+    },
+    "p": {
+      "identity": 5,
+      "labels": [
+        "Product"
+      ],
+      "properties": {
+        "productID": "PROD003",
+        "price": 200,
+        "name": "E-Book Reader",
+        "stockQuantity": 20
+      },
+      "elementId": "4:5da8c7a4-f852-4681-9ed4-3c136c33907d:5"
+    }
+  },
+  {
+    "c": {
+      "identity": 9,
+      "labels": [
+        "Customer"
+      ],
+      "properties": {
+        "joinDate": "2023-02-15",
+        "name": "Bob",
+        "customerID": "CUST002",
+        "email": "bob@example.com"
+      },
+      "elementId": "4:5da8c7a4-f852-4681-9ed4-3c136c33907d:9"
+    },
+    "o": {
+      "identity": 17,
+      "labels": [
+        "Order"
+      ],
+      "properties": {
+        "date": "2024-02-03",
+        "total": 500,
+        "orderID": "ORD202",
+        "status": "Shipped"
+      },
+      "elementId": "4:5da8c7a4-f852-4681-9ed4-3c136c33907d:17"
+    },
+    "p": {
+      "identity": 6,
+      "labels": [
+        "Product"
+      ],
+      "properties": {
+        "productID": "PROD004",
+        "price": 300,
+        "name": "Microwave Oven",
+        "stockQuantity": 5
+      },
+      "elementId": "4:5da8c7a4-f852-4681-9ed4-3c136c33907d:6"
+    }
+  },
+  {
+    "c": {
+      "identity": 9,
+      "labels": [
+        "Customer"
+      ],
+      "properties": {
+        "joinDate": "2023-02-15",
+        "name": "Bob",
+        "customerID": "CUST002",
+        "email": "bob@example.com"
+      },
+      "elementId": "4:5da8c7a4-f852-4681-9ed4-3c136c33907d:9"
+    },
+    "o": {
+      "identity": 18,
+      "labels": [
+        "Order"
+      ],
+      "properties": {
+        "date": "2024-02-04",
+        "total": 400,
+        "orderID": "ORD205",
+        "status": "Processing"
+      },
+      "elementId": "4:5da8c7a4-f852-4681-9ed4-3c136c33907d:18"
+    },
+    "p": {
+      "identity": 5,
+      "labels": [
+        "Product"
+      ],
+      "properties": {
+        "productID": "PROD003",
+        "price": 200,
+        "name": "E-Book Reader",
+        "stockQuantity": 20
+      },
+      "elementId": "4:5da8c7a4-f852-4681-9ed4-3c136c33907d:5"
+    }
+  },
+  {
+    "c": {
+      "identity": 10,
+      "labels": [
+        "Customer"
+      ],
+      "properties": {
+        "joinDate": "2023-03-20",
+        "name": "Charlie",
+        "customerID": "CUST003",
+        "email": "charlie@example.com"
+      },
+      "elementId": "4:5da8c7a4-f852-4681-9ed4-3c136c33907d:10"
+    },
+    "o": {
+      "identity": 19,
+      "labels": [
+        "Order"
+      ],
+      "properties": {
+        "date": "2024-01-05",
+        "total": 1000,
+        "orderID": "ORD301",
+        "status": "Delivered"
+      },
+      "elementId": "4:5da8c7a4-f852-4681-9ed4-3c136c33907d:19"
+    },
+    "p": {
+      "identity": 7,
+      "labels": [
+        "Product"
+      ],
+      "properties": {
+        "productID": "PROD005",
+        "price": 600,
+        "name": "Dishwasher",
+        "stockQuantity": 8
+      },
+      "elementId": "4:5da8c7a4-f852-4681-9ed4-3c136c33907d:7"
+    }
+  },
+  {
+    "c": {
+      "identity": 10,
+      "labels": [
+        "Customer"
+      ],
+      "properties": {
+        "joinDate": "2023-03-20",
+        "name": "Charlie",
+        "customerID": "CUST003",
+        "email": "charlie@example.com"
+      },
+      "elementId": "4:5da8c7a4-f852-4681-9ed4-3c136c33907d:10"
+    },
+    "o": {
+      "identity": 20,
+      "labels": [
+        "Order"
+      ],
+      "properties": {
+        "date": "2024-02-06",
+        "total": 5000,
+        "orderID": "ORD302",
+        "status": "Shipped"
+      },
+      "elementId": "4:5da8c7a4-f852-4681-9ed4-3c136c33907d:20"
+    },
+    "p": {
+      "identity": 5,
+      "labels": [
+        "Product"
+      ],
+      "properties": {
+        "productID": "PROD003",
+        "price": 200,
+        "name": "E-Book Reader",
+        "stockQuantity": 20
+      },
+      "elementId": "4:5da8c7a4-f852-4681-9ed4-3c136c33907d:5"
+    }
+  },
+  {
+    "c": {
+      "identity": 10,
+      "labels": [
+        "Customer"
+      ],
+      "properties": {
+        "joinDate": "2023-03-20",
+        "name": "Charlie",
+        "customerID": "CUST003",
+        "email": "charlie@example.com"
+      },
+      "elementId": "4:5da8c7a4-f852-4681-9ed4-3c136c33907d:10"
+    },
+    "o": {
+      "identity": 21,
+      "labels": [
+        "Order"
+      ],
+      "properties": {
+        "date": "2024-02-07",
+        "total": 4000,
+        "orderID": "ORD305",
+        "status": "Processing"
+      },
+      "elementId": "4:5da8c7a4-f852-4681-9ed4-3c136c33907d:21"
+    },
+    "p": {
+      "identity": 6,
+      "labels": [
+        "Product"
+      ],
+      "properties": {
+        "productID": "PROD004",
+        "price": 300,
+        "name": "Microwave Oven",
+        "stockQuantity": 5
+      },
+      "elementId": "4:5da8c7a4-f852-4681-9ed4-3c136c33907d:6"
+    }
+  },
+  {
+    "c": {
+      "identity": 11,
+      "labels": [
+        "Customer"
+      ],
+      "properties": {
+        "joinDate": "2023-04-25",
+        "name": "Diana",
+        "customerID": "CUST004",
+        "email": "diana@example.com"
+      },
+      "elementId": "4:5da8c7a4-f852-4681-9ed4-3c136c33907d:11"
+    },
+    "o": {
+      "identity": 22,
+      "labels": [
+        "Order"
+      ],
+      "properties": {
+        "date": "2024-01-08",
+        "total": 3000,
+        "orderID": "ORD401",
+        "status": "Delivered"
+      },
+      "elementId": "4:5da8c7a4-f852-4681-9ed4-3c136c33907d:22"
+    },
+    "p": {
+      "identity": 5,
+      "labels": [
+        "Product"
+      ],
+      "properties": {
+        "productID": "PROD003",
+        "price": 200,
+        "name": "E-Book Reader",
+        "stockQuantity": 20
+      },
+      "elementId": "4:5da8c7a4-f852-4681-9ed4-3c136c33907d:5"
+    }
+  },
+  {
+    "c": {
+      "identity": 11,
+      "labels": [
+        "Customer"
+      ],
+      "properties": {
+        "joinDate": "2023-04-25",
+        "name": "Diana",
+        "customerID": "CUST004",
+        "email": "diana@example.com"
+      },
+      "elementId": "4:5da8c7a4-f852-4681-9ed4-3c136c33907d:11"
+    },
+    "o": {
+      "identity": 23,
+      "labels": [
+        "Order"
+      ],
+      "properties": {
+        "date": "2024-02-09",
+        "total": 300,
+        "orderID": "ORD402",
+        "status": "Shipped"
+      },
+      "elementId": "4:5da8c7a4-f852-4681-9ed4-3c136c33907d:23"
+    },
+    "p": {
+      "identity": 7,
+      "labels": [
+        "Product"
+      ],
+      "properties": {
+        "productID": "PROD005",
+        "price": 600,
+        "name": "Dishwasher",
+        "stockQuantity": 8
+      },
+      "elementId": "4:5da8c7a4-f852-4681-9ed4-3c136c33907d:7"
+    }
+  },
+  {
+    "c": {
+      "identity": 11,
+      "labels": [
+        "Customer"
+      ],
+      "properties": {
+        "joinDate": "2023-04-25",
+        "name": "Diana",
+        "customerID": "CUST004",
+        "email": "diana@example.com"
+      },
+      "elementId": "4:5da8c7a4-f852-4681-9ed4-3c136c33907d:11"
+    },
+    "o": {
+      "identity": 24,
+      "labels": [
+        "Order"
+      ],
+      "properties": {
+        "date": "2024-02-10",
+        "total": 400,
+        "orderID": "ORD405",
+        "status": "Processing"
+      },
+      "elementId": "4:5da8c7a4-f852-4681-9ed4-3c136c33907d:24"
+    },
+    "p": {
+      "identity": 5,
+      "labels": [
+        "Product"
+      ],
+      "properties": {
+        "productID": "PROD003",
+        "price": 200,
+        "name": "E-Book Reader",
+        "stockQuantity": 20
+      },
+      "elementId": "4:5da8c7a4-f852-4681-9ed4-3c136c33907d:5"
+    }
+  },
+  {
+    "c": {
+      "identity": 12,
+      "labels": [
+        "Customer"
+      ],
+      "properties": {
+        "joinDate": "2023-05-30",
+        "name": "Evan",
+        "customerID": "CUST005",
+        "email": "evan@example.com"
+      },
+      "elementId": "4:5da8c7a4-f852-4681-9ed4-3c136c33907d:12"
+    },
+    "o": {
+      "identity": 25,
+      "labels": [
+        "Order"
+      ],
+      "properties": {
+        "date": "2024-01-11",
+        "total": 100,
+        "orderID": "ORD501",
+        "status": "Delivered"
+      },
+      "elementId": "4:5da8c7a4-f852-4681-9ed4-3c136c33907d:25"
+    },
+    "p": {
+      "identity": 6,
+      "labels": [
+        "Product"
+      ],
+      "properties": {
+        "productID": "PROD004",
+        "price": 300,
+        "name": "Microwave Oven",
+        "stockQuantity": 5
+      },
+      "elementId": "4:5da8c7a4-f852-4681-9ed4-3c136c33907d:6"
+    }
+  },
+  {
+    "c": {
+      "identity": 12,
+      "labels": [
+        "Customer"
+      ],
+      "properties": {
+        "joinDate": "2023-05-30",
+        "name": "Evan",
+        "customerID": "CUST005",
+        "email": "evan@example.com"
+      },
+      "elementId": "4:5da8c7a4-f852-4681-9ed4-3c136c33907d:12"
+    },
+    "o": {
+      "identity": 26,
+      "labels": [
+        "Order"
+      ],
+      "properties": {
+        "date": "2024-02-12",
+        "total": 800,
+        "orderID": "ORD502",
+        "status": "Shipped"
+      },
+      "elementId": "4:5da8c7a4-f852-4681-9ed4-3c136c33907d:26"
+    },
+    "p": {
+      "identity": 5,
+      "labels": [
+        "Product"
+      ],
+      "properties": {
+        "productID": "PROD003",
+        "price": 200,
+        "name": "E-Book Reader",
+        "stockQuantity": 20
+      },
+      "elementId": "4:5da8c7a4-f852-4681-9ed4-3c136c33907d:5"
+    }
+  },
+  {
+    "c": {
+      "identity": 12,
+      "labels": [
+        "Customer"
+      ],
+      "properties": {
+        "joinDate": "2023-05-30",
+        "name": "Evan",
+        "customerID": "CUST005",
+        "email": "evan@example.com"
+      },
+      "elementId": "4:5da8c7a4-f852-4681-9ed4-3c136c33907d:12"
+    },
+    "o": {
+      "identity": 27,
+      "labels": [
+        "Order"
+      ],
+      "properties": {
+        "date": "2024-02-13",
+        "total": 900,
+        "orderID": "ORD505",
+        "status": "Processing"
+      },
+      "elementId": "4:5da8c7a4-f852-4681-9ed4-3c136c33907d:27"
+    },
+    "p": {
+      "identity": 7,
+      "labels": [
+        "Product"
+      ],
+      "properties": {
+        "productID": "PROD005",
+        "price": 600,
+        "name": "Dishwasher",
+        "stockQuantity": 8
+      },
+      "elementId": "4:5da8c7a4-f852-4681-9ed4-3c136c33907d:7"
+    }
+  }
+]
