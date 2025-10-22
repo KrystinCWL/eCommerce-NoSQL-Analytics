@@ -1,0 +1,448 @@
+﻿[
+  {
+    "n": {
+      "identity": 0,
+      "labels": [
+        "Category"
+      ],
+      "properties": {
+        "name": "Electronics",
+        "categoryID": "CAT001"
+      },
+      "elementId": "4:32a1ddd1-6ab6-4f65-b35b-a4aca4d54122:0"
+    }
+  },
+  {
+    "n": {
+      "identity": 1,
+      "labels": [
+        "Category"
+      ],
+      "properties": {
+        "name": "Books",
+        "categoryID": "CAT002"
+      },
+      "elementId": "4:32a1ddd1-6ab6-4f65-b35b-a4aca4d54122:1"
+    }
+  },
+  {
+    "n": {
+      "identity": 2,
+      "labels": [
+        "Category"
+      ],
+      "properties": {
+        "name": "Home Appliances",
+        "categoryID": "CAT003"
+      },
+      "elementId": "4:32a1ddd1-6ab6-4f65-b35b-a4aca4d54122:2"
+    }
+  },
+  {
+    "n": {
+      "identity": 3,
+      "labels": [
+        "Product"
+      ],
+      "properties": {
+        "productID": "PROD001",
+        "price": 1200,
+        "name": "Laptop",
+        "stockQuantity": 10
+      },
+      "elementId": "4:32a1ddd1-6ab6-4f65-b35b-a4aca4d54122:3"
+    }
+  },
+  {
+    "n": {
+      "identity": 4,
+      "labels": [
+        "Product"
+      ],
+      "properties": {
+        "productID": "PROD002",
+        "price": 800,
+        "name": "Smartphone",
+        "stockQuantity": 15
+      },
+      "elementId": "4:32a1ddd1-6ab6-4f65-b35b-a4aca4d54122:4"
+    }
+  },
+  {
+    "n": {
+      "identity": 5,
+      "labels": [
+        "Product"
+      ],
+      "properties": {
+        "productID": "PROD003",
+        "price": 200,
+        "name": "E-Book Reader",
+        "stockQuantity": 20
+      },
+      "elementId": "4:32a1ddd1-6ab6-4f65-b35b-a4aca4d54122:5"
+    }
+  },
+  {
+    "n": {
+      "identity": 6,
+      "labels": [
+        "Product"
+      ],
+      "properties": {
+        "productID": "PROD004",
+        "price": 300,
+        "name": "Microwave Oven",
+        "stockQuantity": 5
+      },
+      "elementId": "4:32a1ddd1-6ab6-4f65-b35b-a4aca4d54122:6"
+    }
+  },
+  {
+    "n": {
+      "identity": 7,
+      "labels": [
+        "Product"
+      ],
+      "properties": {
+        "productID": "PROD005",
+        "price": 600,
+        "name": "Dishwasher",
+        "stockQuantity": 8
+      },
+      "elementId": "4:32a1ddd1-6ab6-4f65-b35b-a4aca4d54122:7"
+    }
+  },
+  {
+    "n": {
+      "identity": 8,
+      "labels": [
+        "Customer"
+      ],
+      "properties": {
+        "joinDate": "2023-01-10",
+        "name": "Alice",
+        "customerID": "CUST001",
+        "email": "alice@example.com"
+      },
+      "elementId": "4:32a1ddd1-6ab6-4f65-b35b-a4aca4d54122:8"
+    }
+  },
+  {
+    "n": {
+      "identity": 9,
+      "labels": [
+        "Customer"
+      ],
+      "properties": {
+        "joinDate": "2023-02-15",
+        "name": "Bob",
+        "customerID": "CUST002",
+        "email": "bob@example.com"
+      },
+      "elementId": "4:32a1ddd1-6ab6-4f65-b35b-a4aca4d54122:9"
+    }
+  },
+  {
+    "n": {
+      "identity": 10,
+      "labels": [
+        "Customer"
+      ],
+      "properties": {
+        "joinDate": "2023-03-20",
+        "name": "Charlie",
+        "customerID": "CUST003",
+        "email": "charlie@example.com"
+      },
+      "elementId": "4:32a1ddd1-6ab6-4f65-b35b-a4aca4d54122:10"
+    }
+  },
+  {
+    "n": {
+      "identity": 11,
+      "labels": [
+        "Customer"
+      ],
+      "properties": {
+        "joinDate": "2023-04-25",
+        "name": "Diana",
+        "customerID": "CUST004",
+        "email": "diana@example.com"
+      },
+      "elementId": "4:32a1ddd1-6ab6-4f65-b35b-a4aca4d54122:11"
+    }
+  },
+  {
+    "n": {
+      "identity": 12,
+      "labels": [
+        "Customer"
+      ],
+      "properties": {
+        "joinDate": "2023-05-30",
+        "name": "Evan",
+        "customerID": "CUST005",
+        "email": "evan@example.com"
+      },
+      "elementId": "4:32a1ddd1-6ab6-4f65-b35b-a4aca4d54122:12"
+    }
+  },
+  {
+    "n": {
+      "identity": 13,
+      "labels": [
+        "Order"
+      ],
+      "properties": {
+        "date": "2024-01-01",
+        "total": 2000,
+        "orderID": "ORD101",
+        "status": "Delivered"
+      },
+      "elementId": "4:32a1ddd1-6ab6-4f65-b35b-a4aca4d54122:13"
+    }
+  },
+  {
+    "n": {
+      "identity": 14,
+      "labels": [
+        "Order"
+      ],
+      "properties": {
+        "date": "2024-01-15",
+        "total": 800,
+        "orderID": "ORD102",
+        "status": "Shipped"
+      },
+      "elementId": "4:32a1ddd1-6ab6-4f65-b35b-a4aca4d54122:14"
+    }
+  },
+  {
+    "n": {
+      "identity": 15,
+      "labels": [
+        "Order"
+      ],
+      "properties": {
+        "date": "2024-02-01",
+        "total": 300,
+        "orderID": "ORD105",
+        "status": "Processing"
+      },
+      "elementId": "4:32a1ddd1-6ab6-4f65-b35b-a4aca4d54122:15"
+    }
+  },
+  {
+    "n": {
+      "identity": 16,
+      "labels": [
+        "Order"
+      ],
+      "properties": {
+        "date": "2024-01-02",
+        "total": 1200,
+        "orderID": "ORD201",
+        "status": "Delivered"
+      },
+      "elementId": "4:32a1ddd1-6ab6-4f65-b35b-a4aca4d54122:16"
+    }
+  },
+  {
+    "n": {
+      "identity": 17,
+      "labels": [
+        "Order"
+      ],
+      "properties": {
+        "date": "2024-02-03",
+        "total": 500,
+        "orderID": "ORD202",
+        "status": "Shipped"
+      },
+      "elementId": "4:32a1ddd1-6ab6-4f65-b35b-a4aca4d54122:17"
+    }
+  },
+  {
+    "n": {
+      "identity": 18,
+      "labels": [
+        "Order"
+      ],
+      "properties": {
+        "date": "2024-02-04",
+        "total": 400,
+        "orderID": "ORD205",
+        "status": "Processing"
+      },
+      "elementId": "4:32a1ddd1-6ab6-4f65-b35b-a4aca4d54122:18"
+    }
+  },
+  {
+    "n": {
+      "identity": 19,
+      "labels": [
+        "Order"
+      ],
+      "properties": {
+        "date": "2024-01-05",
+        "total": 1000,
+        "orderID": "ORD301",
+        "status": "Delivered"
+      },
+      "elementId": "4:32a1ddd1-6ab6-4f65-b35b-a4aca4d54122:19"
+    }
+  },
+  {
+    "n": {
+      "identity": 20,
+      "labels": [
+        "Order"
+      ],
+      "properties": {
+        "date": "2024-02-06",
+        "total": 5000,
+        "orderID": "ORD302",
+        "status": "Shipped"
+      },
+      "elementId": "4:32a1ddd1-6ab6-4f65-b35b-a4aca4d54122:20"
+    }
+  },
+  {
+    "n": {
+      "identity": 21,
+      "labels": [
+        "Order"
+      ],
+      "properties": {
+        "date": "2024-02-07",
+        "total": 4000,
+        "orderID": "ORD305",
+        "status": "Processing"
+      },
+      "elementId": "4:32a1ddd1-6ab6-4f65-b35b-a4aca4d54122:21"
+    }
+  },
+  {
+    "n": {
+      "identity": 22,
+      "labels": [
+        "Order"
+      ],
+      "properties": {
+        "date": "2024-01-08",
+        "total": 3000,
+        "orderID": "ORD401",
+        "status": "Delivered"
+      },
+      "elementId": "4:32a1ddd1-6ab6-4f65-b35b-a4aca4d54122:22"
+    }
+  },
+  {
+    "n": {
+      "identity": 23,
+      "labels": [
+        "Order"
+      ],
+      "properties": {
+        "date": "2024-02-09",
+        "total": 300,
+        "orderID": "ORD402",
+        "status": "Shipped"
+      },
+      "elementId": "4:32a1ddd1-6ab6-4f65-b35b-a4aca4d54122:23"
+    }
+  },
+  {
+    "n": {
+      "identity": 24,
+      "labels": [
+        "Order"
+      ],
+      "properties": {
+        "date": "2024-02-10",
+        "total": 400,
+        "orderID": "ORD405",
+        "status": "Processing"
+      },
+      "elementId": "4:32a1ddd1-6ab6-4f65-b35b-a4aca4d54122:24"
+    }
+  },
+  {
+    "n": {
+      "identity": 25,
+      "labels": [
+        "Order"
+      ],
+      "properties": {
+        "date": "2024-01-11",
+        "total": 100,
+        "orderID": "ORD501",
+        "status": "Delivered"
+      },
+      "elementId": "4:32a1ddd1-6ab6-4f65-b35b-a4aca4d54122:25"
+    }
+  },
+  {
+    "n": {
+      "identity": 26,
+      "labels": [
+        "Order"
+      ],
+      "properties": {
+        "date": "2024-02-12",
+        "total": 800,
+        "orderID": "ORD502",
+        "status": "Shipped"
+      },
+      "elementId": "4:32a1ddd1-6ab6-4f65-b35b-a4aca4d54122:26"
+    }
+  },
+  {
+    "n": {
+      "identity": 27,
+      "labels": [
+        "Order"
+      ],
+      "properties": {
+        "date": "2024-02-13",
+        "total": 900,
+        "orderID": "ORD505",
+        "status": "Processing"
+      },
+      "elementId": "4:32a1ddd1-6ab6-4f65-b35b-a4aca4d54122:27"
+    }
+  },
+  {
+    "n": {
+      "identity": 28,
+      "labels": [
+        "Review"
+      ],
+      "properties": {
+        "date": "2024-02-01",
+        "rating": 5,
+        "title": "Great Laptop",
+        "reviewID": "REV001",
+        "content": "This laptop has exceeded my expectations."
+      },
+      "elementId": "4:32a1ddd1-6ab6-4f65-b35b-a4aca4d54122:28"
+    }
+  },
+  {
+    "n": {
+      "identity": 29,
+      "labels": [
+        "Review"
+      ],
+      "properties": {
+        "date": "2024-02-10",
+        "rating": 4,
+        "title": "Decent Smartphone",
+        "reviewID": "REV002",
+        "content": "Good value for the price."
+      },
+      "elementId": "4:32a1ddd1-6ab6-4f65-b35b-a4aca4d54122:29"
+    }
+  }
+]

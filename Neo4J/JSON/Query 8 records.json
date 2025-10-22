@@ -1,0 +1,158 @@
+﻿[
+  {
+    "c": {
+      "identity": 9,
+      "labels": [
+        "Customer"
+      ],
+      "properties": {
+        "joinDate": "2023-02-15",
+        "name": "Bob",
+        "customerID": "CUST002",
+        "email": "bob@example.com"
+      },
+      "elementId": "4:5da8c7a4-f852-4681-9ed4-3c136c33907d:9"
+    },
+    "o": {
+      "identity": 17,
+      "labels": [
+        "Order"
+      ],
+      "properties": {
+        "date": "2024-02-03",
+        "total": 500,
+        "orderID": "ORD202",
+        "status": "Shipped"
+      },
+      "elementId": "4:5da8c7a4-f852-4681-9ed4-3c136c33907d:17"
+    },
+    "p": {
+      "identity": 6,
+      "labels": [
+        "Product"
+      ],
+      "properties": {
+        "productID": "PROD004",
+        "price": 300,
+        "name": "Microwave Oven",
+        "stockQuantity": 5
+      },
+      "elementId": "4:5da8c7a4-f852-4681-9ed4-3c136c33907d:6"
+    },
+    "cat": {
+      "identity": 2,
+      "labels": [
+        "Category"
+      ],
+      "properties": {
+        "name": "Home Appliances",
+        "categoryID": "CAT003"
+      },
+      "elementId": "4:5da8c7a4-f852-4681-9ed4-3c136c33907d:2"
+    }
+  },
+  {
+    "c": {
+      "identity": 10,
+      "labels": [
+        "Customer"
+      ],
+      "properties": {
+        "joinDate": "2023-03-20",
+        "name": "Charlie",
+        "customerID": "CUST003",
+        "email": "charlie@example.com"
+      },
+      "elementId": "4:5da8c7a4-f852-4681-9ed4-3c136c33907d:10"
+    },
+    "o": {
+      "identity": 21,
+      "labels": [
+        "Order"
+      ],
+      "properties": {
+        "date": "2024-02-07",
+        "total": 4000,
+        "orderID": "ORD305",
+        "status": "Processing"
+      },
+      "elementId": "4:5da8c7a4-f852-4681-9ed4-3c136c33907d:21"
+    },
+    "p": {
+      "identity": 6,
+      "labels": [
+        "Product"
+      ],
+      "properties": {
+        "productID": "PROD004",
+        "price": 300,
+        "name": "Microwave Oven",
+        "stockQuantity": 5
+      },
+      "elementId": "4:5da8c7a4-f852-4681-9ed4-3c136c33907d:6"
+    },
+    "cat": {
+      "identity": 2,
+      "labels": [
+        "Category"
+      ],
+      "properties": {
+        "name": "Home Appliances",
+        "categoryID": "CAT003"
+      },
+      "elementId": "4:5da8c7a4-f852-4681-9ed4-3c136c33907d:2"
+    }
+  },
+  {
+    "c": {
+      "identity": 12,
+      "labels": [
+        "Customer"
+      ],
+      "properties": {
+        "joinDate": "2023-05-30",
+        "name": "Evan",
+        "customerID": "CUST005",
+        "email": "evan@example.com"
+      },
+      "elementId": "4:5da8c7a4-f852-4681-9ed4-3c136c33907d:12"
+    },
+    "o": {
+      "identity": 25,
+      "labels": [
+        "Order"
+      ],
+      "properties": {
+        "date": "2024-01-11",
+        "total": 100,
+        "orderID": "ORD501",
+        "status": "Delivered"
+      },
+      "elementId": "4:5da8c7a4-f852-4681-9ed4-3c136c33907d:25"
+    },
+    "p": {
+      "identity": 6,
+      "labels": [
+        "Product"
+      ],
+      "properties": {
+        "productID": "PROD004",
+        "price": 300,
+        "name": "Microwave Oven",
+        "stockQuantity": 5
+      },
+      "elementId": "4:5da8c7a4-f852-4681-9ed4-3c136c33907d:6"
+    },
+    "cat": {
+      "identity": 2,
+      "labels": [
+        "Category"
+      ],
+      "properties": {
+        "name": "Home Appliances",
+        "categoryID": "CAT003"
+      },
+      "elementId": "4:5da8c7a4-f852-4681-9ed4-3c136c33907d:2"
+    }
+  }
+]

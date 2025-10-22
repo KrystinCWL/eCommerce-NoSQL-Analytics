@@ -1,0 +1,60 @@
+﻿[
+  {
+    "rev": {
+      "identity": 28,
+      "labels": [
+        "Review"
+      ],
+      "properties": {
+        "date": "2024-02-01",
+        "rating": 5,
+        "title": "Great Laptop",
+        "reviewID": "REV001",
+        "content": "This laptop has exceeded my expectations."
+      },
+      "elementId": "4:5da8c7a4-f852-4681-9ed4-3c136c33907d:28"
+    },
+    "p": {
+      "identity": 3,
+      "labels": [
+        "Product"
+      ],
+      "properties": {
+        "productID": "PROD001",
+        "price": 1200,
+        "name": "Laptop",
+        "stockQuantity": 10
+      },
+      "elementId": "4:5da8c7a4-f852-4681-9ed4-3c136c33907d:3"
+    }
+  },
+  {
+    "rev": {
+      "identity": 29,
+      "labels": [
+        "Review"
+      ],
+      "properties": {
+        "date": "2024-02-10",
+        "rating": 4,
+        "title": "Decent Smartphone",
+        "reviewID": "REV002",
+        "content": "Good value for the price."
+      },
+      "elementId": "4:5da8c7a4-f852-4681-9ed4-3c136c33907d:29"
+    },
+    "p": {
+      "identity": 4,
+      "labels": [
+        "Product"
+      ],
+      "properties": {
+        "productID": "PROD002",
+        "price": 800,
+        "name": "Smartphone",
+        "stockQuantity": 15
+      },
+      "elementId": "4:5da8c7a4-f852-4681-9ed4-3c136c33907d:4"
+    }
+  }
+]

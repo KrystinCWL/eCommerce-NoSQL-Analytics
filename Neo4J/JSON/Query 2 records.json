@@ -1,0 +1,84 @@
+﻿[
+  {
+    "n1": {
+      "identity": 8,
+      "labels": [
+        "Customer"
+      ],
+      "properties": {
+        "joinDate": "2023-01-10",
+        "name": "Alice",
+        "customerID": "CUST001",
+        "email": "alice@example.com"
+      },
+      "elementId": "4:5da8c7a4-f852-4681-9ed4-3c136c33907d:8"
+    },
+    "n2": {
+      "identity": 14,
+      "labels": [
+        "Order"
+      ],
+      "properties": {
+        "date": "2024-01-15",
+        "total": 800,
+        "orderID": "ORD102",
+        "status": "Shipped"
+      },
+      "elementId": "4:5da8c7a4-f852-4681-9ed4-3c136c33907d:14"
+    },
+    "n3": {
+      "identity": 4,
+      "labels": [
+        "Product"
+      ],
+      "properties": {
+        "productID": "PROD002",
+        "price": 800,
+        "name": "Smartphone",
+        "stockQuantity": 15
+      },
+      "elementId": "4:5da8c7a4-f852-4681-9ed4-3c136c33907d:4"
+    }
+  },
+  {
+    "n1": {
+      "identity": 8,
+      "labels": [
+        "Customer"
+      ],
+      "properties": {
+        "joinDate": "2023-01-10",
+        "name": "Alice",
+        "customerID": "CUST001",
+        "email": "alice@example.com"
+      },
+      "elementId": "4:5da8c7a4-f852-4681-9ed4-3c136c33907d:8"
+    },
+    "n2": {
+      "identity": 15,
+      "labels": [
+        "Order"
+      ],
+      "properties": {
+        "date": "2024-02-01",
+        "total": 300,
+        "orderID": "ORD105",
+        "status": "Processing"
+      },
+      "elementId": "4:5da8c7a4-f852-4681-9ed4-3c136c33907d:15"
+    },
+    "n3": {
+      "identity": 4,
+      "labels": [
+        "Product"
+      ],
+      "properties": {
+        "productID": "PROD002",
+        "price": 800,
+        "name": "Smartphone",
+        "stockQuantity": 15
+      },
+      "elementId": "4:5da8c7a4-f852-4681-9ed4-3c136c33907d:4"
+    }
+  }
+]

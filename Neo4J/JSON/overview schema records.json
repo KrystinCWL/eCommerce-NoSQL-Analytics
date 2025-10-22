@@ -1,0 +1,140 @@
+﻿[
+  {
+    "nodes": [
+      {
+        "identity": -103,
+        "labels": [
+          "Order"
+        ],
+        "properties": {
+          "name": "Order",
+          "indexes": [],
+          "constraints": []
+        },
+        "elementId": "-103"
+      },
+      {
+        "identity": -100,
+        "labels": [
+          "Category"
+        ],
+        "properties": {
+          "name": "Category",
+          "indexes": [],
+          "constraints": []
+        },
+        "elementId": "-100"
+      },
+      {
+        "identity": -102,
+        "labels": [
+          "Customer"
+        ],
+        "properties": {
+          "name": "Customer",
+          "indexes": [],
+          "constraints": []
+        },
+        "elementId": "-102"
+      },
+      {
+        "identity": -101,
+        "labels": [
+          "Product"
+        ],
+        "properties": {
+          "name": "Product",
+          "indexes": [],
+          "constraints": []
+        },
+        "elementId": "-101"
+      },
+      {
+        "identity": -104,
+        "labels": [
+          "Review"
+        ],
+        "properties": {
+          "name": "Review",
+          "indexes": [],
+          "constraints": []
+        },
+        "elementId": "-104"
+      }
+    ],
+    "relationships": [
+      {
+        "identity": -104,
+        "start": -102,
+        "end": -104,
+        "type": "WROTE_REVIEW",
+        "properties": {
+          "name": "WROTE_REVIEW"
+        },
+        "elementId": "-104",
+        "startNodeElementId": "-102",
+        "endNodeElementId": "-104"
+      },
+      {
+        "identity": -105,
+        "start": -104,
+        "end": -101,
+        "type": "REVIEW_OF",
+        "properties": {
+          "name": "REVIEW_OF"
+        },
+        "elementId": "-105",
+        "startNodeElementId": "-104",
+        "endNodeElementId": "-101"
+      },
+      {
+        "identity": -100,
+        "start": -101,
+        "end": -100,
+        "type": "BELONGS_TO",
+        "properties": {
+          "name": "BELONGS_TO"
+        },
+        "elementId": "-100",
+        "startNodeElementId": "-101",
+        "endNodeElementId": "-100"
+      },
+      {
+        "identity": -101,
+        "start": -102,
+        "end": -102,
+        "type": "REFERRED_BY",
+        "properties": {
+          "name": "REFERRED_BY"
+        },
+        "elementId": "-101",
+        "startNodeElementId": "-102",
+        "endNodeElementId": "-102"
+      },
+      {
+        "identity": -102,
+        "start": -102,
+        "end": -103,
+        "type": "PLACED",
+        "properties": {
+          "name": "PLACED"
+        },
+        "elementId": "-102",
+        "startNodeElementId": "-102",
+        "endNodeElementId": "-103"
+      },
+      {
+        "identity": -103,
+        "start": -103,
+        "end": -101,
+        "type": "CONTAINS",
+        "properties": {
+          "name": "CONTAINS"
+        },
+        "elementId": "-103",
+        "startNodeElementId": "-103",
+        "endNodeElementId": "-101"
+      }
+    ]
+  }
+]
