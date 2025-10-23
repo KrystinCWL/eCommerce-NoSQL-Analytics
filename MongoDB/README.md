@@ -39,14 +39,14 @@ mongodb/
 
 * Query scripts (.js files)
 * Jupyter Notebook (.ipynb) with query logic and results
-* Compass screenshots (in /screenshots/query_results/)
+* Compass screenshots
 
 ---
 
 ## 🧠 Learning Focus
 
 * Aggregation pipeline ($group, $unwind, $match, $sort)
-* Nested field access ("departments.patients.age")
+* Nested field access
 * Performance comparison between embedded and referenced document design
 
 ---
