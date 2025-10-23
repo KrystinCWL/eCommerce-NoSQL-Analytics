@@ -81,6 +81,6 @@ RETURN c.name, o.orderID, p.name, p.price
 
 ## 🧾 Author
 
-Krystin Lee
-M.S. in Information Systems @ University of Maryland
+Krystin Lee  
+M.S. in Information Systems @ University of Maryland  
 Data Analyst
