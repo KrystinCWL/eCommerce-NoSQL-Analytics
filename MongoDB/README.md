@@ -16,6 +16,41 @@ mongodb/
 
 ---
 
+## 🛠 Setup Instructions
+
+1. **Start MongoDB**
+  ```bash
+  mongod
+  ```   
+
+2. **Import sample data**
+  ```bash
+  mongoimport --db projectDB --collection eCommerce --file ../data/eCommerce.json --jsonArray
+  ```   
+
+3. **Run queries**
+  ```bash
+  mongosh projectDB < queries.js
+  ```   
+
+---
+
+## 📊 Deliverables
+
+* Query scripts (.js files)
+* Jupyter Notebook (.ipynb) with query logic and results
+* Compass screenshots (in /screenshots/query_results/)
+
+---
+
+## 🧠 Learning Focus
+
+* Aggregation pipeline ($group, $unwind, $match, $sort)
+* Nested field access ("departments.patients.age")
+* Performance comparison between embedded and referenced document design
+
+---
+
 ## 🧰 Operations:
 ### Insert data
 i) Insert one document of nested levels [single_ecomm_doc.json].  
@@ -33,4 +68,4 @@ ix) Find Customers who have ordered more than $1500 goods and live in College Pa
 x) Find customers who have viewed Electronic Products and have items which are of Electronics category in their cart.  
 xi) Find customers who have viewed Clothing products, have Books in their wishlist and live in Hyattsville.  
 xii) Find customers who have placed an order in the year 2023, their cart items have a warranty and cart items have a category of Home Appliances.  
-xiii) Find customers who live in VA, have viewed products of Electronics and have a product less than $200 in their cart.  
+xiii) Find customers who live in VA, have viewed products of Electronics and have a product less than $200 in their cart.
