@@ -1,6 +1,6 @@
-Current Mongosh Log ID:	 68f4fd337be4171359cebea3
+Current Mongosh Log ID:  68f4fd337be4171359cebea3
 Connecting to:		       mongodb://localhost:27017/eCommerceDB?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.5.8
-Using MongoDB:	      	 8.0.6
+Using MongoDB:		       8.0.6
 Using Mongosh:		       2.5.8
 
 For mongosh info see: https://www.mongodb.com/docs/mongodb-shell/
