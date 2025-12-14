@@ -43,7 +43,7 @@ In the competitive e-commerce landscape, data analysis is crucial for understand
 
 ---
 
-## 📊 Sample Queries
+## 📊 Sample Queries and outputs
 
 ### 🗄️ MongoDB
 ```python
@@ -53,6 +53,7 @@ db.ecommerce.find({
     "address.city": "College Park"
 })
 ```
+<img height="350" alt="image" src="https://github.com/user-attachments/assets/b7ff775c-bff8-41de-a5b0-c6d0bc639d2c" />
 
 ### 🕸️ Neo4J (Cypher)
 ```cypher
@@ -60,6 +61,7 @@ db.ecommerce.find({
 MATCH (c:Customer)-[:PLACED]->(o:Order)-[:CONTAINS]->(p:Product {category: 'Smartphone'})
 RETURN c.name, o.orderID, p.name, p.price
 ```
+<img height="400" alt="image" src="https://github.com/user-attachments/assets/64612214-806c-42b3-ad3a-ce6eab2f1982" />
 
 ---
 
