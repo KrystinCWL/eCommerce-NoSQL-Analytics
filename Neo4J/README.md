@@ -8,19 +8,28 @@ This section explores **graph database analytics** using Neo4J and Cypher querie
 neo4j/  
 ├── eCommerce_Neo4j_py2neo.ipynb  
 ├── eCommerce_Neo4j_create data.cypher  
-├── eCommerce_Neo4j_query.txt.cypher  
+├── eCommerce_Neo4j_query.cypher  
 ├── instances graph  
 ├── overview schema graph  
-├── JSON   # results exported in JSON  
-│ ├── Query 1  
-│ ├── Query 2  
-│ ├── ...  
-│ └── Query 10  
-├── Query Outputs   # results exported nodes in PNG  
-├── Screenshots   # screenshots from Neo4J  
-├── text cypher  
-│ └── eCommerce_Neo4j_create data.txt  
+│  
+├── **JSON**  (results exported in JSON)  
+│ ├── 10 Queries  
+│ ├── instances records  
+│ └── overview schema records  
+│   
+├── **Query Outputs**  (results exported nodes in PNG or CSV)  
+│ └── 10 Queries   
+│  
+├── **Screenshots** (screenshots from Neo4J)  
+│ ├── 10 Queries   
+│ ├── create data successful
+│ ├── node instances  
+│ └── overview schema  
+│  
+├── **text cypher**  
+│ ├── eCommerce_Neo4j_create data.txt  
 │ └── eCommerce_Neo4j_query.txt  
+│  
 └── README.md  
 
 ---
